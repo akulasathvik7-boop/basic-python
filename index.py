@@ -50,3 +50,8 @@
 
 # result=fact(5)
 # print(result)
+
+
+arr=[12,34,56,78,90]
+arr.extend([12,13])
+print(arr)

@@ -1,7 +1,11 @@
-':"mahabubabad"}
+nimal:
+#     def eat(self):
+#         print("animal will eat")
 
-df.loc[2]={'name':"tharun",'age':23,'city':"mahabubabad"}
+# class Dog(Animal):
+#     def bark(self):
+#         print("the dog will bark")
 
-df.loc[3]={'name':"prem",'age':25,'city':"mahabubabad"}
-
-df.loc[4]={'name':"laxman",'age':23,'city':"mahabubabad"}
+# obj1=Dog()
+# obj1.eat()
+# obj1.bark()
