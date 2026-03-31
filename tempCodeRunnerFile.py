@@ -1,11 +1,5 @@
-nimal:
-#     def eat(self):
-#         print("animal will eat")
-
-# class Dog(Animal):
-#     def bark(self):
-#         print("the dog will bark")
-
-# obj1=Dog()
-# obj1.eat()
-# obj1.bark()
+import matplotlib.pyplot as plt
+x=[2022,2023,2024,2025,2026]
+y=[122,44,177,11,99]
+plt.bar(x,y,color="green")
+plt.show()
