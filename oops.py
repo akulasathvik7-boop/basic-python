@@ -63,19 +63,29 @@
 # obj1.start()
 
 #ducktyping------------------------------------------------------------------------------
-class Animal:
-    def __init__(self):
-        print("Animal live in forest")
+# class Animal:
+#     def __init__(self):
+#         print("Animal live in forest")
 
-class Dog(Animal):
-    def bark(self):
-        print("dog barks")
+# class Dog(Animal):
+#     def bark(self):
+#         print("dog barks")
 
-class Cat(Animal):
-    def meow(self):
-        print("cat says meow meow")
+# class Cat(Animal):
+#     def meow(self):
+#         print("cat says meow meow")
 
-objects=[Dog(),Cat(),Animal()]
+# objects=[Dog(),Cat(),Animal()]
 
-for i in objects:
-    print(i)
+# for i in objects:
+#     print(i)
+
+
+class sathvik:
+    def __init__(self,color,age):
+        self.age=age
+        self.color=color
+    def __get__(self):
+       print(f"sathvik is {self.color} in color and his age is {self.age}")
+x=sathvik('white',24)
+x.__get__()
