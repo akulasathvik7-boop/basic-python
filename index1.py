@@ -10,7 +10,19 @@ import pandas as pd
 # print(df.loc['Pregancies'])
 
 
-df=pd.read_csv("dataset3.csv")
-# print(df.loc[127798])
+# df=pd.read_csv("dataset3.csv")
+# # print(df.loc[127798])
 
-print(df.iloc[0:2000:100,0:3])
+# print(df.iloc[0:2000:100,0:3])
+
+def add(a, b):
+    return a + b
+
+def subtract(a, b):
+    return a - b
+
+def multiply(a, b):
+    return a * b
+
+def divide(a, b):
+    return a / b
